@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC84FF791F03970D00D7FD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC84FF781F03970D00D7FD46 /* AppDelegate.swift */; };
-		EC84FF7B1F03970D00D7FD46 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC84FF7A1F03970D00D7FD46 /* RootViewController.swift */; };
-		EC84FF7D1F03970D00D7FD46 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC84FF7C1F03970D00D7FD46 /* DataViewController.swift */; };
-		EC84FF7F1F03970D00D7FD46 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC84FF7E1F03970D00D7FD46 /* ModelController.swift */; };
-		EC84FF821F03970D00D7FD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC84FF801F03970D00D7FD46 /* Main.storyboard */; };
-		EC84FF841F03970D00D7FD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC84FF831F03970D00D7FD46 /* Assets.xcassets */; };
-		EC84FF871F03970D00D7FD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC84FF851F03970D00D7FD46 /* LaunchScreen.storyboard */; };
+		ECDF12CD1F039C7700C1E05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12CC1F039C7700C1E05E /* AppDelegate.swift */; };
+		ECDF12CF1F039C7700C1E05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12CE1F039C7700C1E05E /* ViewController.swift */; };
+		ECDF12D21F039C7700C1E05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDF12D01F039C7700C1E05E /* Main.storyboard */; };
+		ECDF12D41F039C7700C1E05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDF12D31F039C7700C1E05E /* Assets.xcassets */; };
+		ECDF12D71F039C7700C1E05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDF12D51F039C7700C1E05E /* LaunchScreen.storyboard */; };
+		ECDF12E01F039D6700C1E05E /* MetricsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12DE1F039D6700C1E05E /* MetricsController.swift */; };
+		ECDF12E11F039D6700C1E05E /* MetricsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDF12DF1F039D6700C1E05E /* MetricsController.xib */; };
+		ECDF12E41F039D9100C1E05E /* BlockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12E21F039D9100C1E05E /* BlockController.swift */; };
+		ECDF12E51F039D9100C1E05E /* BlockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDF12E31F039D9100C1E05E /* BlockController.xib */; };
+		ECDF12E71F039DEF00C1E05E /* MetricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12E61F039DEF00C1E05E /* MetricsService.swift */; };
+		ECDF12E91F039EF800C1E05E /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12E81F039EF800C1E05E /* Metric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC84FF751F03970D00D7FD46 /* iLocksidian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLocksidian.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC84FF781F03970D00D7FD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC84FF7A1F03970D00D7FD46 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		EC84FF7C1F03970D00D7FD46 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		EC84FF7E1F03970D00D7FD46 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		EC84FF811F03970D00D7FD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC84FF831F03970D00D7FD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC84FF861F03970D00D7FD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EC84FF881F03970D00D7FD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDF12C91F039C7700C1E05E /* iLocksidian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLocksidian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDF12CC1F039C7700C1E05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECDF12CE1F039C7700C1E05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECDF12D11F039C7700C1E05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDF12D31F039C7700C1E05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDF12D61F039C7700C1E05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECDF12D81F039C7700C1E05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDF12DE1F039D6700C1E05E /* MetricsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsController.swift; sourceTree = "<group>"; };
+		ECDF12DF1F039D6700C1E05E /* MetricsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MetricsController.xib; sourceTree = "<group>"; };
+		ECDF12E21F039D9100C1E05E /* BlockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockController.swift; sourceTree = "<group>"; };
+		ECDF12E31F039D9100C1E05E /* BlockController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockController.xib; sourceTree = "<group>"; };
+		ECDF12E61F039DEF00C1E05E /* MetricsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsService.swift; sourceTree = "<group>"; };
+		ECDF12E81F039EF800C1E05E /* Metric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC84FF721F03970C00D7FD46 /* Frameworks */ = {
+		ECDF12C61F039C7700C1E05E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,33 +47,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC84FF6C1F03970C00D7FD46 = {
+		ECDF12C01F039C7700C1E05E = {
 			isa = PBXGroup;
 			children = (
-				EC84FF771F03970D00D7FD46 /* iLocksidian */,
-				EC84FF761F03970D00D7FD46 /* Products */,
+				ECDF12CB1F039C7700C1E05E /* iLocksidian */,
+				ECDF12CA1F039C7700C1E05E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC84FF761F03970D00D7FD46 /* Products */ = {
+		ECDF12CA1F039C7700C1E05E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC84FF751F03970D00D7FD46 /* iLocksidian.app */,
+				ECDF12C91F039C7700C1E05E /* iLocksidian.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC84FF771F03970D00D7FD46 /* iLocksidian */ = {
+		ECDF12CB1F039C7700C1E05E /* iLocksidian */ = {
 			isa = PBXGroup;
 			children = (
-				EC84FF781F03970D00D7FD46 /* AppDelegate.swift */,
-				EC84FF7A1F03970D00D7FD46 /* RootViewController.swift */,
-				EC84FF7C1F03970D00D7FD46 /* DataViewController.swift */,
-				EC84FF7E1F03970D00D7FD46 /* ModelController.swift */,
-				EC84FF801F03970D00D7FD46 /* Main.storyboard */,
-				EC84FF831F03970D00D7FD46 /* Assets.xcassets */,
-				EC84FF851F03970D00D7FD46 /* LaunchScreen.storyboard */,
-				EC84FF881F03970D00D7FD46 /* Info.plist */,
+				ECDF12CC1F039C7700C1E05E /* AppDelegate.swift */,
+				ECDF12CE1F039C7700C1E05E /* ViewController.swift */,
+				ECDF12D01F039C7700C1E05E /* Main.storyboard */,
+				ECDF12D31F039C7700C1E05E /* Assets.xcassets */,
+				ECDF12D51F039C7700C1E05E /* LaunchScreen.storyboard */,
+				ECDF12D81F039C7700C1E05E /* Info.plist */,
+				ECDF12DE1F039D6700C1E05E /* MetricsController.swift */,
+				ECDF12DF1F039D6700C1E05E /* MetricsController.xib */,
+				ECDF12E21F039D9100C1E05E /* BlockController.swift */,
+				ECDF12E31F039D9100C1E05E /* BlockController.xib */,
+				ECDF12E61F039DEF00C1E05E /* MetricsService.swift */,
+				ECDF12E81F039EF800C1E05E /* Metric.swift */,
 			);
 			path = iLocksidian;
 			sourceTree = "<group>";
@@ -73,13 +85,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC84FF741F03970C00D7FD46 /* iLocksidian */ = {
+		ECDF12C81F039C7700C1E05E /* iLocksidian */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC84FF8B1F03970D00D7FD46 /* Build configuration list for PBXNativeTarget "iLocksidian" */;
+			buildConfigurationList = ECDF12DB1F039C7700C1E05E /* Build configuration list for PBXNativeTarget "iLocksidian" */;
 			buildPhases = (
-				EC84FF711F03970C00D7FD46 /* Sources */,
-				EC84FF721F03970C00D7FD46 /* Frameworks */,
-				EC84FF731F03970C00D7FD46 /* Resources */,
+				ECDF12C51F039C7700C1E05E /* Sources */,
+				ECDF12C61F039C7700C1E05E /* Frameworks */,
+				ECDF12C71F039C7700C1E05E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,26 +99,26 @@
 			);
 			name = iLocksidian;
 			productName = iLocksidian;
-			productReference = EC84FF751F03970D00D7FD46 /* iLocksidian.app */;
+			productReference = ECDF12C91F039C7700C1E05E /* iLocksidian.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EC84FF6D1F03970C00D7FD46 /* Project object */ = {
+		ECDF12C11F039C7700C1E05E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = fries.io;
 				TargetAttributes = {
-					EC84FF741F03970C00D7FD46 = {
-						CreatedOnToolsVersion = 8.1;
+					ECDF12C81F039C7700C1E05E = {
+						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EC84FF701F03970C00D7FD46 /* Build configuration list for PBXProject "iLocksidian" */;
+			buildConfigurationList = ECDF12C41F039C7700C1E05E /* Build configuration list for PBXProject "iLocksidian" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,56 +126,60 @@
 				en,
 				Base,
 			);
-			mainGroup = EC84FF6C1F03970C00D7FD46;
-			productRefGroup = EC84FF761F03970D00D7FD46 /* Products */;
+			mainGroup = ECDF12C01F039C7700C1E05E;
+			productRefGroup = ECDF12CA1F039C7700C1E05E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC84FF741F03970C00D7FD46 /* iLocksidian */,
+				ECDF12C81F039C7700C1E05E /* iLocksidian */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC84FF731F03970C00D7FD46 /* Resources */ = {
+		ECDF12C71F039C7700C1E05E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC84FF871F03970D00D7FD46 /* LaunchScreen.storyboard in Resources */,
-				EC84FF841F03970D00D7FD46 /* Assets.xcassets in Resources */,
-				EC84FF821F03970D00D7FD46 /* Main.storyboard in Resources */,
+				ECDF12D71F039C7700C1E05E /* LaunchScreen.storyboard in Resources */,
+				ECDF12E51F039D9100C1E05E /* BlockController.xib in Resources */,
+				ECDF12E11F039D6700C1E05E /* MetricsController.xib in Resources */,
+				ECDF12D41F039C7700C1E05E /* Assets.xcassets in Resources */,
+				ECDF12D21F039C7700C1E05E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC84FF711F03970C00D7FD46 /* Sources */ = {
+		ECDF12C51F039C7700C1E05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC84FF7B1F03970D00D7FD46 /* RootViewController.swift in Sources */,
-				EC84FF7F1F03970D00D7FD46 /* ModelController.swift in Sources */,
-				EC84FF7D1F03970D00D7FD46 /* DataViewController.swift in Sources */,
-				EC84FF791F03970D00D7FD46 /* AppDelegate.swift in Sources */,
+				ECDF12E71F039DEF00C1E05E /* MetricsService.swift in Sources */,
+				ECDF12E01F039D6700C1E05E /* MetricsController.swift in Sources */,
+				ECDF12CF1F039C7700C1E05E /* ViewController.swift in Sources */,
+				ECDF12E91F039EF800C1E05E /* Metric.swift in Sources */,
+				ECDF12CD1F039C7700C1E05E /* AppDelegate.swift in Sources */,
+				ECDF12E41F039D9100C1E05E /* BlockController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC84FF801F03970D00D7FD46 /* Main.storyboard */ = {
+		ECDF12D01F039C7700C1E05E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC84FF811F03970D00D7FD46 /* Base */,
+				ECDF12D11F039C7700C1E05E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EC84FF851F03970D00D7FD46 /* LaunchScreen.storyboard */ = {
+		ECDF12D51F039C7700C1E05E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC84FF861F03970D00D7FD46 /* Base */,
+				ECDF12D61F039C7700C1E05E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,11 +187,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EC84FF891F03970D00D7FD46 /* Debug */ = {
+		ECDF12D91F039C7700C1E05E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -189,7 +206,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -211,20 +228,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EC84FF8A1F03970D00D7FD46 /* Release */ = {
+		ECDF12DA1F039C7700C1E05E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -238,7 +257,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -254,15 +273,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EC84FF8C1F03970D00D7FD46 /* Debug */ = {
+		ECDF12DC1F039C7700C1E05E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -274,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		EC84FF8D1F03970D00D7FD46 /* Release */ = {
+		ECDF12DD1F039C7700C1E05E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,24 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC84FF701F03970C00D7FD46 /* Build configuration list for PBXProject "iLocksidian" */ = {
+		ECDF12C41F039C7700C1E05E /* Build configuration list for PBXProject "iLocksidian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC84FF891F03970D00D7FD46 /* Debug */,
-				EC84FF8A1F03970D00D7FD46 /* Release */,
+				ECDF12D91F039C7700C1E05E /* Debug */,
+				ECDF12DA1F039C7700C1E05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC84FF8B1F03970D00D7FD46 /* Build configuration list for PBXNativeTarget "iLocksidian" */ = {
+		ECDF12DB1F039C7700C1E05E /* Build configuration list for PBXNativeTarget "iLocksidian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC84FF8C1F03970D00D7FD46 /* Debug */,
-				EC84FF8D1F03970D00D7FD46 /* Release */,
+				ECDF12DC1F039C7700C1E05E /* Debug */,
+				ECDF12DD1F039C7700C1E05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EC84FF6D1F03970C00D7FD46 /* Project object */;
+	rootObject = ECDF12C11F039C7700C1E05E /* Project object */;
 }
