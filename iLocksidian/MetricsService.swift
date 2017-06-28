@@ -1,11 +1,11 @@
 import Foundation
 
-typealias ServiceItemsBlock = (Array<Metric>?, Error?) -> Void
+typealias MetricsServiceBlock = (Array<Metric>?, Error?) -> Void
 
 class MetricsService: NSObject {
     static let API_URL: String = "http://home.fries.io:8080/metrics"
     
-    func getMetrics(block: @escaping ServiceItemsBlock) {
+    func getMetrics(block: @escaping MetricsServiceBlock) {
         let task: URLSessionDataTask = URLSession.shared.dataTask(
             with: URL(string: MetricsService.API_URL)!,
             completionHandler: {

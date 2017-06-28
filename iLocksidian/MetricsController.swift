@@ -2,6 +2,7 @@ import UIKit
 
 class MetricsController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    let blockService = BlockService()
     let metricsService = MetricsService()
     var metrics: Array<Metric> = []
     
@@ -48,5 +49,19 @@ class MetricsController: UIViewController, UITableViewDelegate, UITableViewDataS
         cell.textLabel?.text = metric.name + ": " + String(metric.value)
         
         return cell
+    }
+    
+    @IBAction func explorerButton(_ sender: Any) {
+        self.blockService.getHead(block: { (hash, error) in
+            if(hash != nil) {
+                DispatchQueue.main.async {
+                    let blockController = BlockController(nibName: "BlockController", bundle: nil, hash: hash!)
+                    self.navigationController?.pushViewController(blockController, animated: true)
+                }
+            }
+            else {
+                NSLog("Error in getHead")
+            }
+        })
     }
 }

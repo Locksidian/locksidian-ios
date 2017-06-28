@@ -18,6 +18,8 @@
 		ECDF12E51F039D9100C1E05E /* BlockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDF12E31F039D9100C1E05E /* BlockController.xib */; };
 		ECDF12E71F039DEF00C1E05E /* MetricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12E61F039DEF00C1E05E /* MetricsService.swift */; };
 		ECDF12E91F039EF800C1E05E /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12E81F039EF800C1E05E /* Metric.swift */; };
+		ECDF12EB1F03AAD200C1E05E /* BlockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12EA1F03AAD200C1E05E /* BlockService.swift */; };
+		ECDF12ED1F03AAE300C1E05E /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF12EC1F03AAE300C1E05E /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		ECDF12E31F039D9100C1E05E /* BlockController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockController.xib; sourceTree = "<group>"; };
 		ECDF12E61F039DEF00C1E05E /* MetricsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsService.swift; sourceTree = "<group>"; };
 		ECDF12E81F039EF800C1E05E /* Metric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		ECDF12EA1F03AAD200C1E05E /* BlockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockService.swift; sourceTree = "<group>"; };
+		ECDF12EC1F03AAE300C1E05E /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				ECDF12E31F039D9100C1E05E /* BlockController.xib */,
 				ECDF12E61F039DEF00C1E05E /* MetricsService.swift */,
 				ECDF12E81F039EF800C1E05E /* Metric.swift */,
+				ECDF12EA1F03AAD200C1E05E /* BlockService.swift */,
+				ECDF12EC1F03AAE300C1E05E /* Block.swift */,
 			);
 			path = iLocksidian;
 			sourceTree = "<group>";
@@ -157,11 +163,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECDF12E71F039DEF00C1E05E /* MetricsService.swift in Sources */,
+				ECDF12ED1F03AAE300C1E05E /* Block.swift in Sources */,
 				ECDF12E01F039D6700C1E05E /* MetricsController.swift in Sources */,
 				ECDF12CF1F039C7700C1E05E /* ViewController.swift in Sources */,
 				ECDF12E91F039EF800C1E05E /* Metric.swift in Sources */,
 				ECDF12CD1F039C7700C1E05E /* AppDelegate.swift in Sources */,
 				ECDF12E41F039D9100C1E05E /* BlockController.swift in Sources */,
+				ECDF12EB1F03AAD200C1E05E /* BlockService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
