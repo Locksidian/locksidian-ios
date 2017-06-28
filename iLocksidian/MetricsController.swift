@@ -64,4 +64,9 @@ class MetricsController: UIViewController, UITableViewDelegate, UITableViewDataS
             }
         })
     }
+    
+    @IBAction func peersButton(_ sender: Any) {
+        let peersController = PeersController(nibName: "PeersController", bundle: nil)
+        self.navigationController?.pushViewController(peersController, animated: true)
+    }
 }

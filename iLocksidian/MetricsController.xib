@@ -26,12 +26,20 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuH-p8-P4x">
-                    <rect key="frame" x="274" y="65" width="101" height="44"/>
+                    <rect key="frame" x="196" y="65" width="179" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <accessibility key="accessibilityConfiguration" label="Explorer"/>
                     <state key="normal" title="Explorer"/>
                     <connections>
                         <action selector="explorerButton:" destination="-1" eventType="touchUpInside" id="Jvj-rw-x1d"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbC-F0-lm5">
+                    <rect key="frame" x="0.0" y="65" width="179" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Peers"/>
+                    <connections>
+                        <action selector="peersButton:" destination="-1" eventType="touchUpInside" id="IAf-8N-eH8"/>
                     </connections>
                 </button>
             </subviews>
