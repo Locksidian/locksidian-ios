@@ -16,10 +16,14 @@ class PeersController: UIViewController, MKMapViewDelegate {
         self.peerService.getPeers(block: { (peers, error) in
             if (peers != nil) {
                 for peer in peers! {
-                    let annotation = PeerAnnotation(coordinate: peer.coord)
-                    annotation.title = peer.address
+                    self.peerService.locatePeer(block: { (coord, error) in
+                        if (coord != nil) {
+                            let annotation = PeerAnnotation(coordinate: coord)
+                            annotation.title = peer.address
                     
-                    self.mapView.addAnnotation(annotation)
+                            self.mapView.addAnnotation(annotation)
+                        }
+                    }, address: peer.address)
                 }
             }
             else {

@@ -32,7 +32,7 @@ class PeerService: NSObject {
                         block(nil, errorEx)
                     }
                 }
-        }
+            }
         );
         
         task.resume()
@@ -54,16 +54,11 @@ class PeerService: NSObject {
                         for jsonPeer in json {
                             let address = jsonPeer["address"] as! String
                             let key = jsonPeer["key"] as! String
-                            
-                            let semaphore = DispatchSemaphore(value: 0)
-                            self.locatePeer(block: { (coord, error) in
-                                peers.append(Peer(
-                                    address: address,
-                                    key: key,
-                                    coord: coord!
-                                ))
-                            }, address: /*address*/"home.fries.io")
-                            semaphore.wait()
+
+                            peers.append(Peer(
+                                address: address,
+                                key: key
+                            ))
                         }
                         
                         block(peers, nil)
